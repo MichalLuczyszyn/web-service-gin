@@ -1,4 +1,4 @@
-package albums
+package domain
 
 type album struct {
 	Id     string  `json:"id"`

@@ -2,9 +2,6 @@ module github.com/MichalLuczyszyn/web-service-gin
 
 go 1.22.5
 
-require github.com/MichalLuczyszyn/web-service-gin/albums/domain v0.0.0
-replace github.com/MichalLuczyszyn/web-service-gin/albums/domain => /albums/domain
-
 require github.com/gin-gonic/gin v1.10.0
 
 require (
